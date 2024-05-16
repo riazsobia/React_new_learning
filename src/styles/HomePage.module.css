@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -8%;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .imageContainer {
+    margin-top: 20px;
+  }
+  
+  .heading {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #343a40;
+  }
+  
+  .text {
+    font-size: 24px;
+    color: #343a40;
+    margin: 10px 0;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+
+  button {
+    border: none;
+    background: none;
+  }

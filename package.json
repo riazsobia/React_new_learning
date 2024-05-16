@@ -1,0 +1,61 @@
+{
+  "name": "project-5-react-latest",
+  "engines": {
+    "node": "16.19.0",
+    "npm": "8.19.3"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^5.2.1",
+    "axios": "^0.21.4",
+    "axios-auth-refresh": "^3.3.6",
+    "bootstrap": "^4.6.0",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.40",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.3",
+    "react-dom": "^17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-js-pagination": "^3.0.3",
+    "react-moment": "^1.1.3",
+    "react-paginate": "^8.2.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^4.0.3",
+    "serve": "^14.2.0",
+    "sweetalert2": "^11.7.1",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "prod": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "msw": "^0.35.0"
+  }
+}

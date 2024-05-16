@@ -1,0 +1,126 @@
+.taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.taskTitle {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.taskDueDate {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.taskAssignedTo {
+  margin-bottom: 0.5rem;
+}
+
+.taskCategory {
+  margin-bottom: 0.5rem;
+}
+
+.taskPriority {
+  margin-bottom: 0.5rem;
+}
+
+.taskProgress {
+  margin-bottom: 2rem;
+}
+
+.taskProgressLabel {
+  display: inline-block;
+  width: 8rem;
+}
+
+.taskProgressBar {
+  background-color: #6ac2ff;
+  height: 1rem;
+  min-width: 5%;
+}
+
+.taskProgressBarContainer {
+  position: relative;
+  height: 1rem;
+  width: 200px;
+}
+
+.taskProgressValue {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.taskCompleted {
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.searchContainer {
+  margin-bottom: 1rem;
+}
+
+.filtersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.priorityFilter {
+  margin-right: 1rem;
+}
+.categoryFilter {
+  margin-right: 1rem;
+}
+
+.sortOrder {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.sortOrder label {
+  margin-right: 0.5rem;
+}
+
+.taskAttachments {
+  margin-top: 10px;
+}
+
+.taskAttachments a {
+  display: block;
+  margin-top: 5px;
+}
+
+.overdue {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.overdueText {
+  color: red;
+  font-weight: bold;
+}
+
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}

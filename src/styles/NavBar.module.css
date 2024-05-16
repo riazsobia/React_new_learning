@@ -1,0 +1,20 @@
+.NavBar {
+    background-color: #343a40;
+  }
+  
+  .NavLink {
+    color: #fff;
+    font-size: 18px;
+    padding: 0 10px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .Active {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .NavBar img {
+    margin-right: 10px;
+  }

@@ -1,0 +1,154 @@
+.Button {
+    font-size: 1rem;
+    align-self: center;
+    border-radius: 100px;
+    border-color: transparent;
+    padding: 4px 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    min-width: 75px;
+    line-height: 1.5;
+  }
+  
+  .Button:hover {
+    opacity: 0.8;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  
+  .Button:hover:active {
+    background-color: #222635 !important;
+  }
+  
+  .Button:active {
+    background-color: #222635 !important;
+  }
+  
+  .Button:focus {
+    background-color: #222635;
+  }
+  
+  .Wide {
+    padding: 10px 50px;
+    width: 50%;
+    height: 20%;
+  }
+  
+  .Blue,
+  .BlueOutline:hover,
+  .Bright:hover {
+    background-color: #222635;
+    color: #ffffff;
+  }
+  
+  .BlueOutline,
+  .Blue:hover {
+    /* border: 1px solid #2142b2; */
+    background-color: #ffffff;
+    color: #111624;
+  }
+  
+  .Black,
+  .BlackOutline:hover {
+    /* background-color: #242a3d;
+    color: white; */
+    background-color: #222635;
+    color: rgb(149, 158, 167);
+  }
+  
+  .Black:hover,
+  .BlackOutline {
+    /* background-color: #dadadf;
+    color: #242a3d;
+    border-color: #242a3d; */
+    background-color: #222635;
+    color: #242a3d;
+  }
+  
+  .Bright {
+    background-color: #222635;
+    color: #fafafa;
+  }
+
+  .UploadButton {
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+  }
+
+.downloadButton {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+  }
+  
+.downloadButton:hover {
+    background-color: #45a049;
+  }
+
+.taskDeleteButton {
+    /* add .Button class styles here */
+    font-size: 1.1rem;
+    align-self: center;
+    border-radius: 100px;
+    border-color: transparent;
+    padding: 4px 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    min-width: 75px;
+    line-height: 1.5;
+    /* end of .Button class styles */
+    background-color: #d9534f;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+.taskDeleteButton:hover,
+.taskDeleteButton:focus {
+    background-color: #c9302c;
+    color: #ffffff;
+  }
+  
+.taskDeleteButton:active {
+    background-color: #ac2925;
+    color: #ffffff;
+  }
+
+.taskProgressButton {
+    /* add .Button class styles here */
+    font-size: 1rem;
+    align-self: center;
+    border-radius: 100px;
+    border-color: transparent;
+    padding: 4px 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    min-width: 75px;
+    line-height: 1.5;
+    /* end of .Button class styles */
+    background-color: #222635;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  
+.taskProgressButton:hover,
+.taskProgressButton:focus {
+    background-color: #222635;
+    color: #757b8f;
+  }
+  
+.taskProgressButton:active {
+    background-color: #222635;
+    color: #757b8f;
+  }

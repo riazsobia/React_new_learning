@@ -1,0 +1,100 @@
+.todoList {
+  list-style-type: none;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.id {
+  font-weight: bold;
+}
+
+.title {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.description {
+    width: 400px;
+    max-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+  }
+
+.priority {
+  text-align: center;
+}
+
+.dueDate {
+  text-align: center;
+}
+
+.category {
+  text-transform: capitalize;
+}
+
+.assignedTo {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.completedPercentage {
+  text-align: center;
+  font-size: 14px;
+}
+
+.completed {
+  text-align: center;
+  font-size: 14px;
+}
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Add some margin at the top and bottom and center the element */
+}
+
+.overdue {
+  color: red;
+}
